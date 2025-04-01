@@ -38,7 +38,7 @@ function App() {
   const connectWebSocket = () => {
     setConnectionStatus("connecting");
     const ws = new WebSocket(
-      `ws://13.53.102.154:8000/ws/transcribe?lang=${lang}`
+      `wss://13.53.102.154.nip.io/ws/transcribe?lang=${lang}`
     );
     wsRef.current = ws;
 
