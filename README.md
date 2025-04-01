@@ -20,7 +20,7 @@ This is a **Vite + React.js** application designed to provide seamless translati
 
 1. Clone the repository:  
     ```bash
-    git clone https://github.com/your-username/healthcare-translation-app.git
+    git clone https://github.com/RijinRaju/healthcare-translation-frontend.git
     cd healthcare-translation-app
     ```
 
@@ -31,14 +31,14 @@ This is a **Vite + React.js** application designed to provide seamless translati
 
 3. Start the development server:  
     ```bash
-    npm run dev
+    npx vite
     ```
 
 4. Open the app in your browser at `http://localhost:5173`.
 
 ## Scripts
 
-- `npm run dev`: Start the development server.  
+- `npx vite`: Start the development server.  
 - `npm run build`: Build the app for production.  
 - `npm run preview`: Preview the production build.  
 
@@ -49,10 +49,6 @@ translation-app/
 ├── public/         # Static assets
 ├── src/
 │   ├── assets/     # Images, icons, etc.
-│   ├── components/ # Reusable components
-│   ├── pages/      # Application pages
-│   ├── hooks/      # Custom React hooks
-│   ├── context/    # Context API files
 │   ├── styles/     # Global and component-specific styles
 │   └── App.jsx     # Main app component
 ├── package.json    # Project metadata and dependencies
