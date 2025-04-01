@@ -38,7 +38,7 @@ function App() {
   const connectWebSocket = () => {
     setConnectionStatus("connecting");
     const ws = new WebSocket(
-      `wss://healthcare-translation-backend-4hsg.onrender.com/ws/transcribe?lang=${lang}`
+      `ws://13.53.102.154:8000/ws/transcribe?lang=${lang}`
     );
     wsRef.current = ws;
 
